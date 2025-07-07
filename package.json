@@ -1,0 +1,18 @@
+{
+  "name": "kbo_notice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node kbo_discord_notice_bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.0.1",
+    "node-cron": "^4.2.0"
+  }
+}
