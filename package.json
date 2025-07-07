@@ -2,6 +2,7 @@
   "name": "kbo_notice",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node kbo_discord_notice_bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
