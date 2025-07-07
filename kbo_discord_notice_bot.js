@@ -76,7 +76,7 @@ client.once("ready", async () => {
   }
 
   // ✅ 전날 20:00 (KST, UTC 11:00) 내일 경기 알림
-  cron.schedule("45 11 * * *", async () => {
+  cron.schedule("45 10 * * *", async () => {
     console.log("🚀 내일 경기 알림 cron 실행");
     const tomorrow = new Date();
     tomorrow.setDate(tomorrow.getDate() + 1);
